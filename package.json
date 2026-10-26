@@ -1,0 +1,17 @@
+{
+  "name": "telegram-invite-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Telegram bot that grants invite permissions to trusted members",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
